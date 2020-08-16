@@ -26,5 +26,4 @@ class Genre
     genre
   end
   
-
 end
