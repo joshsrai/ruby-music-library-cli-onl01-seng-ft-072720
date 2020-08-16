@@ -39,7 +39,5 @@ class Song
     genre.songs.push self unless genre.songs.include? self 
   end
   
-  def genres 
-    songs 
   
 end
