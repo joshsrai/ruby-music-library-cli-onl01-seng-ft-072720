@@ -20,9 +20,5 @@ class Artist
     @@all << self
   end
   
-  # def self.create(name)
-  #   song = Song.new(name)
-  #   song.save
-  # end
-  
+
 end
