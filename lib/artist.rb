@@ -20,5 +20,11 @@ class Artist
     @@all << self
   end
   
+  def self.create(name, artist=nil, genre=nil)
+    song = Song.new(name, artist, genre)
+    song.save
+    song
+  end
+  
 
 end
