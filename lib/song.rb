@@ -39,5 +39,7 @@ class Song
     genre.songs.push self unless genre.songs.include? self 
   end
   
+  def self.find_by
+  
   
 end
