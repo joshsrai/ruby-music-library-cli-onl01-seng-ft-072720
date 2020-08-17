@@ -1,6 +1,6 @@
 class MusicImporter
   
-  def initialize
+  def initialize($LOAD_P)
     
   end
 end
