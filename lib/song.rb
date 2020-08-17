@@ -47,6 +47,8 @@ class Song
     genre.songs.push self unless genre.songs.include? self 
   end
   
-  def self.new_from_filename
+  def self.new_from_filename(name)
+    
+  end
   
 end
