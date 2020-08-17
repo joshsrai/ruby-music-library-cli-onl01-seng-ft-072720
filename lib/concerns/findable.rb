@@ -1,3 +1,3 @@
-module
+module Concerns:Findable
 
 end
