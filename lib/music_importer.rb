@@ -1,6 +1,6 @@
 class MusicImporter
   
-  def initialize($LOAD_P)
-    
+  def initialize(path)
+    @path = path
   end
 end
