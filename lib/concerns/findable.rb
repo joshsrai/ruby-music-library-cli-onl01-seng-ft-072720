@@ -1,6 +1,6 @@
 module Concerns::Findable
   
-  def helper_method
+  def find_by_name
 
 
 
