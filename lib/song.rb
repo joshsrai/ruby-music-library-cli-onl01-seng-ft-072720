@@ -49,8 +49,8 @@ class Song
   
   def self.new_from_filename(name)
     artist, song, genre_name = name.split(' - ')
-    fixed_name= genre_name.gsub('.mp3', '')
-    artist = Artist.find_or_create_by_name(name)
+    fixed_name = genre_name.gsub('.mp3', '')
+    artist = Artist.find_or_create_by_name(artist)
     genre = Genre.find_or_create_by_name(fixed_name)
     new(song, artist, genre)
   end
