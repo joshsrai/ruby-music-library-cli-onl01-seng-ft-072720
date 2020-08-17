@@ -4,4 +4,13 @@ class MusicLibraryController
     MusicImporter.new(path).import
   end
   
+  def call
+    puts ""
+    puts ""
+    puts ""
+    puts ""
+    puts ""
+  end
+  
+  
 end
